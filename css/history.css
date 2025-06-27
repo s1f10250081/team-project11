@@ -1,0 +1,16 @@
+h1 {
+  margin: 0;
+  padding: 10px 0 10px 0;
+  border-bottom: solid 2px #666666;
+  font-family: sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #333333;
+}
+
+div.color {
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border: solid 3px #ccccff;
+} 
