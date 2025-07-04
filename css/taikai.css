@@ -1,10 +1,109 @@
+body {
+  background: linear-gradient(135deg, #d5f3ff 0%, #b2e4fa 100%);
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', 'Meiryo', sans-serif;
+}
 h1 {
   margin: 0;
-  padding: 10px 0 10px 0;
-  border-bottom: solid 2px #666666;
-  font-family: sans-serif;
-  font-size: 24px;
+  padding: 12px 0 12px 0;
+  border-bottom: solid 2px #5D93A4;
+  font-size: 40px;
   text-align: center;
-  color: #ffffff;
-  background-color: #333333;
+  color: #EFEDED;
+  background-color: #4cbeddb0;
+  letter-spacing: 0.1em;
+}
+
+.grand-slams {
+  list-style: none;
+  position: absolute;
+  left: 50%; top: 60%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 500px;
+  min-width: 320px;
+  min-height: 320px;
+  padding: 0;
+}
+
+.grand-slams li {
+  position: absolute;
+  width: 350px;
+  background: rgba(255,255,255,0.85);
+  box-shadow: 0 4px 16px #65b5d480;
+  border-radius: 20px;
+  padding: 22px;
+  box-sizing: border-box;
+}
+
+.grand-slams .au { 
+  top: 0;
+  left: 0;
+}
+.grand-slams .fr { 
+  top: 0;
+  right: 0;
+}
+.grand-slams .gb { 
+  bottom: -16%;
+  left: 0;
+}
+.grand-slams .us { 
+  bottom: -10%;
+  right: 0;
+}
+
+
+.grand-slams h2 {
+  font-size: 1.4em;
+  color: #25a1e4;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+.grand-slams p {
+  margin: 4px 0;
+  color: #247396;
+}
+
+a {
+  display: block;
+  margin: 630px auto 0 auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #2185af;
+  background: rgba(255,255,255,0.7);
+  padding: 10px 40px;
+  border-radius: 24px;
+  box-shadow: 0 1px 6px #95bcd6aa;
+  width: max-content;
+  transition: background 0.2s, color 0.2s;
+}
+a:hover {
+  background: #38befa;
+  color: #fff;
+}
+
+.grand-slams li {
+  position: absolute;
+  padding: 28px 28px 22px 28px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.93);
+  box-shadow: 0 6px 20px #65b5d480, 0 1.5px 0 #b6e7f8 inset;
+  border-top: 8px solid transparent;  }
+
+.grand-slams .au { border-top-color: #1565C0; }
+.grand-slams .fr { border-top-color: #E64A19; }
+.grand-slams .gb { border-top-color: #388E3C; }
+.grand-slams .us { border-top-color: #283593; }
+
+.feature {
+  margin-top: 10px;
+  padding: 7px 12px;
+  background: #e0f3ffcc;
+  border-radius: 8px;
+  font-size: 0.98em;
+  color: #0286bb;
+  font-style: italic;
 }
