@@ -14,3 +14,7 @@ div.color {
   padding: 10px 10px 10px 10px;
   border: solid 3px #ccccff;
 } 
+
+div.color {
+  text-align: center;  /* 子要素のインライン要素（img）を中央揃え */
+}
