@@ -1,11 +1,3 @@
-:root {
-  --main-bg:   #f0f4ff;
-  --card-bg:   #ffffff; 
-  --accent:    #6699ff; 
-  --border:    #ccd9ff;  
-  --text:      #333333;  
-}
-
 body {
   margin: 0;
   padding: 0;
